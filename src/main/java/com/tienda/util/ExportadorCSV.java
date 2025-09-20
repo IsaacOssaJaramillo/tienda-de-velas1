@@ -11,9 +11,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Map;
 
-/**
- * Exportador CSV usando Apache Commons CSV
- */
+
 public class ExportadorCSV {
     public static void exportarPedidos(String ruta, Cliente cliente) throws IOException {
         try (FileWriter out = new FileWriter(ruta);
