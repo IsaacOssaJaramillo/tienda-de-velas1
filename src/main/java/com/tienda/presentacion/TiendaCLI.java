@@ -7,6 +7,10 @@ import com.tienda.util.*;
 import java.time.LocalDateTime;
 import java.util.*;
 
+/**
+ * Interfaz de línea de comandos para la tienda de velas
+ */
+
 public class TiendaCLI {
     private static final Scanner scanner = new Scanner(System.in);
     private static final IAdminService adminService = new AdminService();
